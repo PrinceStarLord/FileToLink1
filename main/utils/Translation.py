@@ -7,27 +7,27 @@ class Language(object):
     class en(object):
         START_TEXT = """
 **👋 Hᴇʏ, {}**\n
-<i>I'm Telegram Files Streaming Bot As Well Direct Links Generator</i>\n
-<i>Click On Help To Get More Information</i>\n
-<b><i><u>Warning 🚸</u></i></b>\n
-<b>🔞 Pron Contents Leads To Permanenet Ban You.</b>"""
+<b>ɪ'ᴍ ɪɴꜱᴛᴀɴᴛ ᴛᴇʟᴇɢʀᴀᴍ ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.</b>\n
+<b>ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ</b>\n
+<b><u>Warning ⚠️</u></b>\n
+<i>🔞 ᴘʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</i>"""
 
-        HELP_TEXT = """🔰 **How to Use Me ?**
+        HELP_TEXT = """🔰 **Hᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ ?**
 
-<i>- Send Me Any File Or Media From Telegram.</i>
-<i>- I Will Provide External Direct Download Link !</i>
+<i>1.Send Me Any File Or Video.</i>
+<i>2.I Will Provide You Direct Download Link !</i>
 
-**Download Link With Fastest Speed ⚡️**
+**You Can Download With Fast Speed 🚀**
 
-<b><i><u>Warning 🚸</u></i></b>
-<b>🔞 Pron Contents Leads To Permanenet Ban You.</b></b>\n
-<i>Contact Developer Or Report Bugs</i> <b>: <a href='https://t.me/groupdc'>[ Click Here ]</a></b>"""
+<b><u>Warning ⚠️</u></b>
+<i>🔞 ᴘʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</i>"""
+
 
         ABOUT_TEXT = """
-<b>⚜ My Name : TG Direct Link Generator</b>\n
-<b>⚜ Username : @Dcstreamsbot</b>\n
-<b>🔸Version : 1.0</b>\n
-<b>🔹Last Updated : [ 12-may-22 ]</b>
+<b>⚜ ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/FileToLinkiBot'>ꜰɪʟᴇᴛᴏʟɪɴᴋɪʙᴏᴛ</a></b>\n
+<b>⚜ ᴜᴘᴅᴀᴛᴇꜱ  : @M2LiNKS</b>\n
+<b>🔸ꜱᴜᴘᴘᴏʀᴛ  : @M2LiNKSCOMMUNITY</b>\n
+
 """
 
         stream_msg_text ="""

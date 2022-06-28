@@ -86,9 +86,9 @@ async def gen_link(m: Message,log_msg: Messages, from_channel: bool):
     reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🖥ᴡᴀᴛᴄʜ", url=page_link), InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ 📥", url=stream_link)]])
 
     if from_channel:
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🖥ᴡᴀᴛᴄʜ", url=page_link), InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ 📥", url=stream_link)]])
-    else:ᴅᴏᴡɴʟᴏᴀᴅ
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🖥ᴡᴀᴛᴄʜ", url=page_link), InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ 📥", url=stream_link)],
-            [InlineKeyboardButton("❌ Delete Link", callback_data=f"msgdelconf2_{log_msg.message_id}_{get_media_file_unique_id(log_msg)}")]])
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🖥ᴡᴀᴛᴄʜ", url=page_link), InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ 📥", url=stream_link)]])
+    else:
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🖥ᴡᴀᴛᴄʜ", url=page_link), InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ 📥", url=stream_link)],
+            [InlineKeyboardButton("❌ ᴅᴇʟᴇᴛᴇ ʟɪɴᴋ", callback_data=f"msgdelconf2_{log_msg.message_id}_{get_media_file_unique_id(log_msg)}")]])
 
     return reply_markup, Stream_Text, stream_link

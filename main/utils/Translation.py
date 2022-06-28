@@ -14,11 +14,9 @@ class Language(object):
 
         HELP_TEXT = """🔰 **Hᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ ?**
 
-<i>1.Send Me Any File Or Video.</i>
-<i>2.I Will Provide You Direct Download Link !</i>
-
-**You Can Download With Fast Speed 🚀**
-
+<i>1.ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ ᴏʀ ᴠɪᴅᴇᴏ.</i>
+<i>2.ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ !</i>
+**ʏᴏᴜ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ᴡɪᴛʜ ꜰᴀꜱᴛ ꜱᴘᴇᴇᴅ 🚀**
 <b><u>Warning ⚠️</u></b>
 <i>🔞 ᴘʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</i>"""
 
@@ -31,13 +29,13 @@ class Language(object):
 """
 
         stream_msg_text ="""
-<u>**Successfully Generated Your Link !**</u>\n
-<b>📂 File Name :</b> {}\n
-<b>📦 File Size :</b> {}\n
-<b>📥 Download :</b> {}\n
-<b>🖥 Watch :</b> {}"""
+<u>**ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʏᴏᴜʀ ʟɪɴᴋ !**</u>\n
+<b>📂 ꜰɪʟᴇ ɴᴀᴍᴇ :</b> {}\n
+<b>📦 ꜰɪʟᴇ ꜱɪᴢᴇ :</b> {}\n
+<b>📥 ᴅᴏᴡɴʟᴏᴀᴅ :</b> {}\n
+<b>🖥 ᴡᴀᴛᴄʜ :</b> {}"""
 
-        ban_text="__Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ.__\n\n**[Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/groupdc) Tʜᴇʏ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**"
+        ban_text="__Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ.__\n\n**[Cᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ](https://t.me/groupdc) Tʜᴇʏ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**"
 
 # ------------------------------------------------------------------------------
 

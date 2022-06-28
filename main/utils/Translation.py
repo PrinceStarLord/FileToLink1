@@ -35,7 +35,7 @@ class Language(object):
 <b>📥 ᴅᴏᴡɴʟᴏᴀᴅ :</b> {}\n
 <b>🖥 ᴡᴀᴛᴄʜ :</b> {}"""
 
-        ban_text="__Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ.__\n\n**[Cᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ](https://t.me/groupdc) Tʜᴇʏ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**"
+        ban_text="__Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ.__\n\n**[Cᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ](https://t.me/M2linksCommunity) Tʜᴇʏ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**"
 
 # ------------------------------------------------------------------------------
 
@@ -45,8 +45,8 @@ class BUTTON(object):
         InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ],        
-        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url='https://t.me/groupdcbots'),
-        InlineKeyboardButton("ʀᴇᴘᴏ", url='https://github.com/selfie-bd/TG-Direct-Link-Generator')]
+        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url='https://t.me/M2LINKS'),
+        InlineKeyboardButton("ᴏᴡɴᴇʀ", url='https://t.me/Prince_Star_Lord']
         ]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(

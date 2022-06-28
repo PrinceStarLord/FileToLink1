@@ -46,7 +46,7 @@ class BUTTON(object):
         InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ],        
         [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url='https://t.me/M2LINKS'),
-        InlineKeyboardButton("ᴏᴡɴᴇʀ", url='https://t.me/Prince_Star_Lord']
+        InlineKeyboardButton("ᴏᴡɴᴇʀ", url='https://t.me/Prince_Star_Lord')]
         ]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(

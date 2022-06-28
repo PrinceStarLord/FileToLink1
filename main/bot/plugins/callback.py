@@ -43,7 +43,7 @@ async def cb_data(bot, update: CallbackQuery):
             await update.message.edit_text(
             text=update.message.text,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✔️", callback_data=f"msgdelyes_{usr_cmd[1]}_{usr_cmd[2]}"), InlineKeyboardButton("✖️", callback_data=f"msgdelno_{usr_cmd[1]}_{usr_cmd[2]}")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✅", callback_data=f"msgdelyes_{usr_cmd[1]}_{usr_cmd[2]}"), InlineKeyboardButton("❌", callback_data=f"msgdelno_{usr_cmd[1]}_{usr_cmd[2]}")]])
         )
         elif usr_cmd[0] == "msgdelno":
             get_msg = await bot.get_messages(chat_id=Var.BIN_CHANNEL, message_ids=int(usr_cmd[1]))
